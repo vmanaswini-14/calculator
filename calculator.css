@@ -1,0 +1,57 @@
+body
+{
+    background-color: rgb(2, 2, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.in
+{
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+#te
+{
+    height: 60px;
+    width: 290px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10ps ;
+    border: 1px solid rgb(234, 231, 238);
+    box-shadow: inset solid rgb(35, 239, 16);
+    text-align: right;
+    margin-bottom: 10px;
+
+}
+.cal
+{
+display: grid;
+grid-template-columns:repeat(4,1fr);
+gap: 10px 5px;
+}
+.ze
+{
+    grid-column: span 2;
+}
+
+button
+{
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid rgb(244, 242, 250);
+  box-shadow: solid rgb(188, 88, 239);
+}
+.equal
+{
+    background-color: green;
+color: white;
+}
